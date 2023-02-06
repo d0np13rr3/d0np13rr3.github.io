@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.menu-container {
+  color: black;
+  background-color: #D3CA86;  /* Blue */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+.menu {
+  border: 1px solid #fff;  /* For debugging */
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  border: 1px solid #fff;  /* For debugging */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login {
+  margin-left: 20px;
+}
+
+.header-container {
+  color: black;
+  background-color: #FFFFE0;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  align-items: center;
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #FFFFE0;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+}
+
+.headertitle{
+  display: flex;
+  align-items: right;
+  font-size: 4em;
+
+}
+
+.header-article-big{
+  display: flex;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 10em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  justify-content: center;
+
+
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  padding: 10px 0px 10px 0px;
+
+}
+
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+}
+
+.source {
+  display:inline-block;
+  vertical-align:middle;
+  width: 20%;
+  margin: 20px 1.15%;
+  height: 160px;
+  background-color: #fffdaf;
+  text-align: center;
+}
+
+
+.report{
+  overflow: hidden;
+  background-color: #FFFFE0;
+
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #FFFFE0;
+  height: 200px;
+  flex: 1;
+}
+
+.footer-one,
+.footer-three {
+  background-color: #D3CA86;
+  flex: initial;
+  width: 300px;
+}
+
+.footer-two{
+  padding: 70px 0;
+  text-align: center;
+  font-size: 0.7;
+
+
+
+}
